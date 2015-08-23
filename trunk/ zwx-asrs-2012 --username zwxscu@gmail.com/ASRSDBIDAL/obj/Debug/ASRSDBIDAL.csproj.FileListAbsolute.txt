@@ -1,0 +1,14 @@
+E:\work\Project4\ASRSDB\ASRSDBIDAL\bin\Debug\ASRSDBIDAL.dll
+E:\work\Project4\ASRSDB\ASRSDBIDAL\bin\Debug\ASRSDBIDAL.pdb
+E:\work\Project4\ASRSDB\ASRSDBIDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\Project4\ASRSDB\ASRSDBIDAL\obj\Debug\ASRSDBIDAL.dll
+E:\work\Project4\ASRSDB\ASRSDBIDAL\obj\Debug\ASRSDBIDAL.pdb
+E:\work\Project4\ASRSDB\ASRSDBIDAL\bin\Debug\ASRSDBME.dll
+E:\work\Project4\ASRSDB\ASRSDBIDAL\bin\Debug\ASRSDBME.pdb
+E:\work\ASRS1227\ASRSDBIDAL\bin\Debug\ASRSDBIDAL.dll
+E:\work\ASRS1227\ASRSDBIDAL\bin\Debug\ASRSDBIDAL.pdb
+E:\work\ASRS1227\ASRSDBIDAL\bin\Debug\ASRSDBME.dll
+E:\work\ASRS1227\ASRSDBIDAL\bin\Debug\ASRSDBME.pdb
+E:\work\ASRS1227\ASRSDBIDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\work\ASRS1227\ASRSDBIDAL\obj\Debug\ASRSDBIDAL.dll
+E:\work\ASRS1227\ASRSDBIDAL\obj\Debug\ASRSDBIDAL.pdb

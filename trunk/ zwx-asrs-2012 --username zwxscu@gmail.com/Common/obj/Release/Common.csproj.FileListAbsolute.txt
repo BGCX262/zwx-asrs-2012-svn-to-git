@@ -1,0 +1,12 @@
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\bin\Release\ASRSUser.Common.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\bin\Release\COM.Excel.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\bin\Release\OpenSmtp.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\bin\Release\OWC10Chart.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\codeTemp\sln\CodematicDemo\Common\obj\Release\ASRSUser.Common.dll
+E:\work\Project4\ASRS\Common\bin\Release\ASRSUser.Common.dll
+E:\work\Project4\ASRS\Common\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\ASRS\Common\obj\Release\ASRSUser.Common.dll
+E:\work\Project4\googleHostProject\Common\bin\Release\ASRSUser.Common.dll
+E:\work\Project4\googleHostProject\Common\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\googleHostProject\Common\obj\Release\ASRSUser.Common.dll

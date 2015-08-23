@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E7B8E83-3CD0-43CD-9854-2E44A6B0E39E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASRS</RootNamespace>
+    <AssemblyName>ASRS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ksirc.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\IT视界\DotNet\第三方控件\DotNetBar8.2\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zzDataGridView">
+      <HintPath>..\..\..\DotNetSpace\zzDataGridView\bin\Debug\zzDataGridView.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DBComDevSetting.cs" />
+    <Compile Include="Common\GeneralSetting.cs" />
+    <Compile Include="Common\TaskingStatusRecord.cs" />
+    <Compile Include="Common\WarehouseSetting.cs" />
+    <Compile Include="LoadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadForm.designer.cs">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ModifyPWDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\ModifyPWDForm.Designer.cs">
+      <DependentUpon>ModifyPWDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\UserEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\UserEditForm.Designer.cs">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\UsersManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\UsersManageForm.Designer.cs">
+      <DependentUpon>UsersManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\ASRSModel.cs" />
+    <Compile Include="Main\ASRSPresenter.cs" />
+    <Compile Include="Main\ASRSMainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\ASRSMainView.Designer.cs">
+      <DependentUpon>ASRSMainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\DeviceMonitorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeviceMonitor\DeviceMonitorView.Designer.cs">
+      <DependentUpon>DeviceMonitorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\IASRSMainView.cs" />
+    <Compile Include="Common\IASRSViewComn.cs" />
+    <Compile Include="Login\ILoginView.cs" />
+    <Compile Include="SystemManage\DBManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\DBManageForm.Designer.cs">
+      <DependentUpon>DBManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetting\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnitTest\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTest\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseMonitor\IWarehouseMonitorView.cs" />
+    <Compile Include="Login\LoginPresenter.cs" />
+    <Compile Include="Login\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MVPBase\MVPBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductQuery\ProductQueryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductQuery\ProductQueryView.Designer.cs">
+      <DependentUpon>ProductQueryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportView.Designer.cs">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseMonitor\TransVehicle.cs" />
+    <Compile Include="WarehouseMonitor\TaskDisptach.cs" />
+    <Compile Include="WarehouseMonitor\TaskParse.cs" />
+    <Compile Include="WarehouseMonitor\WarehouseMonitorPresenter.cs" />
+    <Compile Include="WarehouseMonitor\WarehouseMonitorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseMonitor\WarehouseMonitorView.Designer.cs">
+      <DependentUpon>WarehouseMonitorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\RegisterRW.cs" />
+    <Compile Include="WizardSet\wizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WizardSet\wizardForm.designer.cs">
+      <DependentUpon>wizardForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DeviceMonitor\DeviceMonitorView.resx">
+      <DependentUpon>DeviceMonitorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadForm.resx">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\ModifyPWDForm.resx">
+      <DependentUpon>ModifyPWDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\UserEditForm.resx">
+      <DependentUpon>UserEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\UsersManageForm.resx">
+      <DependentUpon>UsersManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\ASRSMainView.resx">
+      <DependentUpon>ASRSMainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductQuery\ProductQueryView.resx">
+      <DependentUpon>ProductQueryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\ReportView.resx">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\DBManageForm.resx">
+      <DependentUpon>DBManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetting\SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTest\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseMonitor\WarehouseMonitorView.resx">
+      <DependentUpon>WarehouseMonitorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WizardSet\wizardForm.resx">
+      <DependentUpon>wizardForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DotNetSpace\zzDataGridView\zzDataGridView1.csproj">
+      <Project>{3C80B916-467D-4FC1-A92C-A53C786A4F45}</Project>
+      <Name>zzDataGridView1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASRSDBBLL\ASRSDBBLL.csproj">
+      <Project>{7EF708C1-AD9E-4D8E-B5F4-239252C0B95B}</Project>
+      <Name>ASRSDBBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASRSDBFactory\ASRSDBFactory.csproj">
+      <Project>{0F1E58AA-B88F-40FC-A46E-F61B3C746F68}</Project>
+      <Name>ASRSDBFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASRSDBIDAL\ASRSDBIDAL.csproj">
+      <Project>{0A19AC2B-57AC-401E-ADCC-A1D3655A3C0A}</Project>
+      <Name>ASRSDBIDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASRSDBME\ASRSDBME.csproj">
+      <Project>{54B81B4A-2474-4415-92A0-1180E9A3CDBF}</Project>
+      <Name>ASRSDBME</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WareHouseControl\WareHouseControl.csproj">
+      <Project>{36DDC603-7F74-404A-9294-56B08C3A4B1B}</Project>
+      <Name>WareHouseControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ASRSConfig.xml" />
+    <None Include="bin\Resources\kcmdf-2.ico" />
+    <Content Include="ksirc.ico" />
+    <Content Include="Resources\arrow-down-double-2.ico" />
+    <Content Include="Resources\arrow-left-double-2.ico" />
+    <Content Include="Resources\arrow-right-double-2.ico" />
+    <Content Include="Resources\arrow-up-double-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

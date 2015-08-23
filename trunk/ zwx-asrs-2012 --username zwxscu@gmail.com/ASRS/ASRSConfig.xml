@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--任务状态-->
+  <taskStatus>
+    <!--最新的任务流水号ID，当系统启动时会先查询该值-->
+    <latestTaskID>0</latestTaskID>
+  </taskStatus>
+  <!--小车的执行状态-->
+  <machineStatus>
+    <!--1号小车-->
+    <machine id="1">
+      <!--小车的最新的指令序号，从1开始编号-->
+      <latestInstIndex>0</latestInstIndex>
+      
+      <!--小车的当前任务流水号，ExeStatus属性代表任务的执行状态：
+            0:新建，未分配资源，1：已分配资源 ，正在运行中，2：执行完毕
+      -->
+      <currentTaskID ExeStatus="1"> 0</currentTaskID>
+    </machine>
+    <!--2号小车-->
+    <machine id="2">
+      <!--小车的最新的指令序号，从1开始编号-->
+      <latestInstIndex>0</latestInstIndex>
+      
+      <!--小车的当前任务流水号，ExeStatus属性代表任务的执行状态：
+            0:新建，未分配资源，1：已分配资源 ，正在运行中，2：执行完毕
+      -->
+      <currentTaskID ExeStatus="2"> 0</currentTaskID>
+    </machine>
+  </machineStatus>
+  <!--系统设置-->
+  <sysconfig>
+    
+  </sysconfig>
+</configuration>

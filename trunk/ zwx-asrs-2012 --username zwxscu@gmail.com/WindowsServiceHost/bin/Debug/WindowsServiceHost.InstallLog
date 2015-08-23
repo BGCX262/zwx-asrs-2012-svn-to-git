@@ -1,0 +1,20 @@
+﻿Installing assembly 'E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+Rolling back assembly 'E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+Installing assembly 'E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+Rolling back assembly 'E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.InstallLog
+   assemblypath = E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe

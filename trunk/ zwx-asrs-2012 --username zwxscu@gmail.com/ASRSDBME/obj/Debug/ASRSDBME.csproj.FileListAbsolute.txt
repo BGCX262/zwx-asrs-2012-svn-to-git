@@ -1,0 +1,10 @@
+E:\work\Project4\ASRSDB\ASRSDBME\bin\Debug\ASRSDBME.dll
+E:\work\Project4\ASRSDB\ASRSDBME\bin\Debug\ASRSDBME.pdb
+E:\work\Project4\ASRSDB\ASRSDBME\obj\Debug\ResolveAssemblyReference.cache
+E:\work\Project4\ASRSDB\ASRSDBME\obj\Debug\ASRSDBME.dll
+E:\work\Project4\ASRSDB\ASRSDBME\obj\Debug\ASRSDBME.pdb
+E:\work\ASRS1227\ASRSDBME\bin\Debug\ASRSDBME.dll
+E:\work\ASRS1227\ASRSDBME\bin\Debug\ASRSDBME.pdb
+E:\work\ASRS1227\ASRSDBME\obj\Debug\ResolveAssemblyReference.cache
+E:\work\ASRS1227\ASRSDBME\obj\Debug\ASRSDBME.dll
+E:\work\ASRS1227\ASRSDBME\obj\Debug\ASRSDBME.pdb

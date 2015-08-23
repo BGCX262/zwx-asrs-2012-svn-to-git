@@ -1,0 +1,9 @@
+E:\work\Project4\ASRS\SvcProductArrive\bin\Debug\SvcProductArrive.dll.config
+E:\work\Project4\ASRS\SvcProductArrive\bin\Debug\SvcProductArrive.dll
+E:\work\Project4\ASRS\SvcProductArrive\bin\Debug\SvcProductArrive.pdb
+E:\work\Project4\ASRS\SvcProductArrive\obj\Debug\ResolveAssemblyReference.cache
+E:\work\Project4\ASRS\SvcProductArrive\obj\Debug\SvcProductArrive.dll
+E:\work\Project4\ASRS\SvcProductArrive\obj\Debug\SvcProductArrive.pdb
+E:\work\Project4\ASRS\DebugBin\SvcProductArrive.dll.config
+E:\work\Project4\ASRS\DebugBin\SvcProductArrive.dll
+E:\work\Project4\ASRS\DebugBin\SvcProductArrive.pdb

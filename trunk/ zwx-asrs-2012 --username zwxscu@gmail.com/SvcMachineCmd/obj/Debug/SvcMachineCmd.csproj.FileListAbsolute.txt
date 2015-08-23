@@ -1,0 +1,6 @@
+E:\work\Project4\ASRS\DebugBin\SvcMachineCmd.dll.config
+E:\work\Project4\ASRS\DebugBin\SvcMachineCmd.dll
+E:\work\Project4\ASRS\DebugBin\SvcMachineCmd.pdb
+E:\work\Project4\ASRS\SvcMachineCmd\obj\Debug\ResolveAssemblyReference.cache
+E:\work\Project4\ASRS\SvcMachineCmd\obj\Debug\SvcMachineCmd.dll
+E:\work\Project4\ASRS\SvcMachineCmd\obj\Debug\SvcMachineCmd.pdb

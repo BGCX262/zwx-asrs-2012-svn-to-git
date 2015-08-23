@@ -1,0 +1,11 @@
+E:\work\Project4\codeTemp\sln\CodematicDemo\DBUtility\bin\Release\ASRSUser.DBUtility.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\DBUtility\bin\Release\MySql.Data.dll
+E:\work\Project4\codeTemp\sln\CodematicDemo\DBUtility\bin\Release\System.Data.SQLite.DLL
+E:\work\Project4\codeTemp\sln\CodematicDemo\DBUtility\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\codeTemp\sln\CodematicDemo\DBUtility\obj\Release\ASRSUser.DBUtility.dll
+E:\work\Project4\ASRS\DBUtility\bin\Release\ASRSUser.DBUtility.dll
+E:\work\Project4\ASRS\DBUtility\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\ASRS\DBUtility\obj\Release\ASRSUser.DBUtility.dll
+E:\work\Project4\googleHostProject\DBUtility\bin\Release\ASRSUser.DBUtility.dll
+E:\work\Project4\googleHostProject\DBUtility\obj\Release\ResolveAssemblyReference.cache
+E:\work\Project4\googleHostProject\DBUtility\obj\Release\ASRSUser.DBUtility.dll

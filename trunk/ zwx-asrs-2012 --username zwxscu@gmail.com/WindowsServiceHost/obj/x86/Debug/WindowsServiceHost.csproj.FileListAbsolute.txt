@@ -1,0 +1,13 @@
+E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe.config
+E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.exe
+E:\work\Project4\ASRS\WindowsServiceHost\bin\Debug\WindowsServiceHost.pdb
+E:\work\Project4\ASRS\DebugBin\WindowsServiceHost.exe.config
+E:\work\Project4\ASRS\DebugBin\WindowsServiceHost.exe
+E:\work\Project4\ASRS\DebugBin\WindowsServiceHost.pdb
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\WindowsServiceHost.BookServiceHost.resources
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\WindowsServiceHost.ProjectInstaller.resources
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\WindowsServiceHost.exe
+E:\work\Project4\ASRS\WindowsServiceHost\obj\x86\Debug\WindowsServiceHost.pdb
